@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="100dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="4dp"
+        android:rotationX="8"
+        android:src="@tools:sample/avatars"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo_teappoyo" />
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="118dp"
+        android:layout_height="122dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="20dp"
+        app:srcCompat="@drawable/registrarse" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:text="Nombre y Apellidos" />
+
+    <EditText
+        android:id="@+id/editTextTextMultiLine"
+        android:layout_width="376dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="15dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="Nombre Aprellido Paterno Apellido Materno"
+        android:inputType="textMultiLine" />
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="145dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="5dp"
+        android:text="Fecha de Nacimiento" />
+
+    <EditText
+        android:id="@+id/editTextDate"
+        android:layout_width="376dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="15dp"
+        android:ems="10"
+        android:hint="dd/mm/aaaa"
+        android:inputType="date" />
+
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="55dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="5dp"
+        android:text="Genero" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="69dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="40dp"
+        android:text="Telefono" />
+
+    <EditText
+        android:id="@+id/editTextPhone"
+        android:layout_width="376dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="15dp"
+        android:ems="10"
+        android:hint="+56 9 9999999"
+        android:inputType="phone" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="49dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="5dp"
+        android:text="Email" />
+
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress2"
+        android:layout_width="376dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="15dp"
+        android:allowUndo="true"
+        android:ems="10"
+        android:hint="example@TEAppoyo.cl"
+        android:inputType="textEmailAddress" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="235dp"
+        android:layout_marginTop="35dp"
+        android:backgroundTint="#0AA18C"
+        android:text="Guardar Datos"
+        tools:layout_editor_absoluteX="138dp"
+        tools:layout_editor_absoluteY="429dp" />
+
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="354dp"
+        android:layout_height="96dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="5dp"
+        app:srcCompat="@drawable/manos_colores_1"
+        tools:layout_editor_absoluteX="58dp"
+        tools:layout_editor_absoluteY="636dp" />
+
+
+</LinearLayout>

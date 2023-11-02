@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    tools:context=".Pictograma">
+
+    <ImageButton
+        android:id="@+id/imageButton6"
+        android:layout_width="135dp"
+        android:layout_height="138dp"
+        android:backgroundTint="#0AA18C"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/guide_book_icon_design_vector"
+        tools:layout_editor_absoluteX="48dp"
+        tools:layout_editor_absoluteY="89dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton7"
+        android:layout_width="135dp"
+        android:layout_height="138dp"
+        android:backgroundTint="#EC7479"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/relax2"
+        tools:layout_editor_absoluteX="215dp"
+        tools:layout_editor_absoluteY="89dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton9"
+        android:layout_width="135dp"
+        android:layout_height="138dp"
+        android:backgroundTint="#09A08B"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/registro_diario"
+        tools:layout_editor_absoluteX="220dp"
+        tools:layout_editor_absoluteY="269dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton8"
+        android:layout_width="135dp"
+        android:layout_height="138dp"
+        android:backgroundTint="#EC7479"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/guia"
+        tools:layout_editor_absoluteX="48dp"
+        tools:layout_editor_absoluteY="269dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton11"
+        android:layout_width="135dp"
+        android:layout_height="138dp"
+        android:backgroundTint="#EC7479"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/best_to_do_list_apps_1"
+        tools:layout_editor_absoluteX="215dp"
+        tools:layout_editor_absoluteY="468dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton10"
+        android:layout_width="135dp"
+        android:layout_height="138dp"
+        android:backgroundTint="#09A08B"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/_472852"
+        tools:layout_editor_absoluteX="46dp"
+        tools:layout_editor_absoluteY="468dp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="106dp"
+        android:layout_height="56dp"
+        app:srcCompat="@drawable/logo_teappoyo"
+        tools:layout_editor_absoluteX="289dp"
+        tools:layout_editor_absoluteY="659dp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Guias y Programas"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="232dp" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Relajación"
+        tools:layout_editor_absoluteX="247dp"
+        tools:layout_editor_absoluteY="232dp" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Guia para la Familia"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="423dp" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Registro Diario"
+        tools:layout_editor_absoluteX="234dp"
+        tools:layout_editor_absoluteY="423dp" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Informacion Legal"
+        tools:layout_editor_absoluteX="60dp"
+        tools:layout_editor_absoluteY="616dp" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="To-Do"
+        tools:layout_editor_absoluteX="262dp"
+        tools:layout_editor_absoluteY="616dp" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Home"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="164dp"
+        tools:layout_editor_absoluteY="6dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="47dp"
+        android:layout_height="42dp"
+        android:backgroundTint="#FCFCFC"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/home"
+        tools:layout_editor_absoluteX="329dp"
+        tools:layout_editor_absoluteY="6dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

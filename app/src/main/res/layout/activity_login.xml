@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="407dp"
+        android:layout_height="176dp"
+        android:layout_marginTop="26dp"
+        android:layout_marginEnd="54dp"
+        android:rotationX="8"
+        android:src="@tools:sample/avatars"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo_teappoyo" />
+
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="95dp"
+        android:layout_marginTop="70dp"
+        android:breakStrategy="simple"
+        android:ems="10"
+        android:hint="Email ID"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="95dp"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="95dp"
+        android:text="Remember me" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="317dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="#EC7479"
+        android:text="Login"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="138dp"
+        tools:layout_editor_absoluteY="429dp" />
+
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="354dp"
+        android:layout_height="96dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="115dp"
+        app:srcCompat="@drawable/manos_colores_1"
+        tools:layout_editor_absoluteX="58dp"
+        tools:layout_editor_absoluteY="636dp" />
+
+
+</LinearLayout>
